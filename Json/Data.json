@@ -1,0 +1,399 @@
+{
+    "Entities": {
+        "Spriteset_redSeparator": [
+            [0, 21],
+            [22, 22],
+            [45, 21],
+            [67, 20],
+            [88, 20],
+            [109, 21],
+            [131, 20],
+            [152, 21]
+        ],
+        "Spriteset_greenSeparator": [
+            [[0, 72], [73, 72]],
+            [[0, 72], [73, 72]],
+            [[0, 76], [77, 76]],
+            [[0, 76], [77, 76]],
+            [[0, 76], [77, 76]],
+            [[0, 84], [85, 84]],
+            [[0, 68], [69, 68]],
+            [[0, 80], [81, 80]]
+        ],
+        "RectToHitbox_offset": [
+            [3, 3],
+            [1, 4],
+            [3, 3],
+            [5, 2],
+            [5, 2],
+            [5, 3],
+            [4, 2],
+            [2, 3]
+        ],
+        "LeftTurn_offset": [
+            [-1, 0],
+            [3, 4],
+            [0, 1],
+            [-4, -3],
+            [-4, -3],
+            [-2, -1],
+            [-4, -3],
+            [3, 4]
+        ],
+        "Movement_velocities": [
+            [
+                [2, 2], 
+                [-2, 2], 
+                [2, -2], 
+                [-2, -2]
+            ], 
+            [
+                [2, 2], 
+                [-2, 2], 
+                [2, -2], 
+                [-2, -2], 
+                [2, 2.5], 
+                [-2, 2.5], 
+                [2, -2.5], 
+                [-2, -2.5], 
+                [2.5, 2], 
+                [-2.5, 2], 
+                [2.5, -2], 
+                [-2.5, -2], 
+                [2.5, 2.5], 
+                [-2.5, 2.5], 
+                [2.5, -2.5], 
+                [-2.5, -2.5]
+            ], 
+            [
+                [2, 2.5], 
+                [-2, 2.5], 
+                [2, -2.5], 
+                [-2, -2.5], 
+                [2.5, 2], 
+                [-2.5, 2], 
+                [2.5, -2], 
+                [-2.5, -2], 
+                [2.5, 2.5], 
+                [-2.5, 2.5], 
+                [2.5, -2.5], 
+                [-2.5, -2.5], 
+                [2.5, 3], 
+                [-2.5, 3], 
+                [2.5, -3], 
+                [-2.5, -3], 
+                [3, 2.5], 
+                [-3, 2.5], 
+                [3, -2.5], 
+                [-3, -2.5], 
+                [3, 3], 
+                [-3, 3], 
+                [3, -3], 
+                [-3, -3]
+            ], 
+            [
+                [2, 3], 
+                [-2, 3], 
+                [2, -3], 
+                [-2, -3], 
+                [3, 2], 
+                [-3, 2], 
+                [3, -2], 
+                [-3, -2], 
+                [2.5, 2.5], 
+                [-2.5, 2.5], 
+                [2.5, -2.5], 
+                [-2.5, -2.5], 
+                [2.5, 3], 
+                [-2.5, 3], 
+                [2.5, -3], 
+                [-2.5, -3], 
+                [3, 2.5], 
+                [-3, 2.5], 
+                [3, -2.5], 
+                [-3, -2.5], 
+                [3, 3], 
+                [-3, 3], 
+                [3, -3], 
+                [-3, -3]
+            ], 
+            [
+                [2, 3], 
+                [-2, 3], 
+                [2, -3], 
+                [-2, -3], 
+                [3, 2], 
+                [-3, 2], 
+                [3, -2], 
+                [-3, -2], 
+                [2.5, 3], 
+                [-2.5, 3], 
+                [2.5, -3], 
+                [-2.5, -3], 
+                [3, 2.5], 
+                [-3, 2.5], 
+                [3, -2.5], 
+                [-3, -2.5], 
+                [3, 3], 
+                [-3, 3], 
+                [3, -3], 
+                [-3, -3], 
+                [3, 3.5], 
+                [-3, 3.5], 
+                [3, -3.5], 
+                [-3, -3.5], 
+                [3.5, 3], 
+                [-3.5, 3], 
+                [3.5, -3], 
+                [-3.5, -3], 
+                [3.5, 3.5], 
+                [-3.5, 3.5], 
+                [3.5, -3.5], 
+                [-3.5, -3.5]
+            ]
+        ],
+        "Animation_speed": {
+            "0": 5,
+            "1": 5,
+            "2": 4,
+            "3": 3,
+            "4": 2
+        }
+    },
+    "Sidebar": {
+        "enlarge": 2,
+        "Shadow_offset": [-2, 2],
+        "Posters_position": [
+            [4, 4],
+            [4, 64],
+            [4, 84],
+            [4, 111]
+        ],
+        "PauseButton_position": [7, 140],
+        "WantedPosterToSprite_position": [
+            [16, 18],
+            [16, 17],
+            [16, 18],
+            [16, 19],
+            [16, 19],
+            [15, 18],
+            [17, 19],
+            [15, 18]
+        ],
+        "StatPosterFont_position": {
+            "kills": [6, 74],
+            "time": [6, 94],
+            "high_score": [6, 128]
+        }
+    },
+    "Menu": {
+        "enlarge": 4,
+        "Shadow_offset": [-2, 1],
+        "WantedTitle_position": [26, 6],
+        "Buttons_position": {
+            "play": [68, 37],
+            "options": [60, 50]
+        },
+        "Suspects_position": [
+            [2, 69],
+            [21, 68],
+            [40, 69],
+            [60, 70],
+            [80, 70],
+            [100, 69],
+            [122, 70],
+            [140, 69]
+        ]
+    },
+    "Options": {
+        "enlarge": 4,
+        "Shadow_offset": [-1, 1],
+        "OptionsTitle_position": [41, 4],
+        "Labels_position": {
+            "window_size": [88, 43]
+        },
+        "Buttons_position": {
+            "back": [4, 6],
+            "crosshair": [12, 31],
+            "animation": [12, 43],
+            "music": [23, 55],
+            "sound": [23, 67],
+            "dark_mode": [93, 31],
+            "640x360": [93, 53],
+            "1280x720": [93, 62],
+            "1920x1080": [93, 71]
+        }
+    },
+    "GameOver": {
+        "enlarge": 3,
+        "OutsideShadow_offset": [-2, 1],
+        "InsideShadow_offset": [-1, 1],
+        "Window_position": [65, 22],
+        "GameOverTitle_position": [72, 28],
+        "StatBox_position": [71, 44],
+        "StatsFont_position": {
+            "score": [133, 46],
+            "high_score": [131, 55],
+            "end_time": [120, 64]
+        },
+        "Buttons_position": {
+            "play": [94, 74],
+            "options": [115, 74],
+            "menu": [136, 74]   
+        },
+        "StatsFont_position_OnMotion": [
+           null, 
+           null, 
+           null, 
+           {
+               "end_time": [null, 0]
+           }, 
+           {
+                "score": [133, 8],
+                "high_score": [131, 17],
+                "end_time": [null, 26]
+           }, 
+           {
+                "score": [133, 34],
+                "high_score": [131, 43],
+                "end_time": [null, 52]
+           }, 
+           {
+                "score": [133, 46],
+                "high_score": [131, 55],
+                "end_time": [null, 64]
+           }
+        ]
+    },
+    "Pause": {
+        "enlarge": 3,
+        "OutsideShadow_offset": [-2, 1],
+        "InsideShadow_offset": [-1, 1],
+        "Window_position": [65, 22],
+        "PausedTitle_position": [89, 28],
+        "StatBox_position": [71, 49],
+        "StatsFont_position": {
+            "score": [105, 51],
+            "time": [98, 60]
+        },
+        "Buttons_position": {
+            "play": [81, 74],
+            "restart": [102, 74],
+            "options": [123, 74],
+            "menu": [144, 74]
+        }
+    },
+    "Crosshair": {
+        "enlarge": 3,
+        "Shadow_offset": [-1, 1],
+        "CrosshairTitle_position": [56, 4],
+        
+        "Default": {
+            "Buttons_position": {
+                "back": [4, 6],
+                "fine": [4, 34],
+                "german": [60, 34],
+                "star": [116, 34],
+                "dot": [174, 34],
+                "target_dot": [4, 67],
+                "circle": [60, 67],
+                "bullseye": [116, 67],
+                "cross": [174, 67],
+                "customize": [79, 107]
+            },
+            "Previews_position": {
+                "fine": [7, 44],
+                "german": [63, 44],
+                "star": [119, 44],
+                "dot": [177, 44],
+                "target_dot": [7, 84],
+                "circle": [63, 77],
+                "bullseye": [119, 77],
+                "cross": [177, 77]
+            },
+            "PreviewToCrosshair_offset": [2, 1]
+        },
+        "Custom": {
+            "Buttons_position": {
+                "color": {
+                    "blue": [139, 34],
+                    "green": [163, 34],
+                    "yellow": [187, 34],
+                    "red": [139, 44],
+                    "purple": [163, 44],
+                    "black": [187, 44]
+                },
+                "outer_circle": [133, 58],
+                "inner_circles": {
+                    "1st": [138, 82],
+                    "2nd": [161, 82],
+                    "3rd": [185, 82]
+                },
+                "center_type": {
+                    "dot": [138, 105],
+                    "cross": [152, 105],
+                    "none": [166, 105]
+                },
+                "overall_size": {
+                    "1x": [8, 31],
+                    "2x": [24, 31],
+                    "3x": [41, 31]
+                },
+                "graticule": {
+                    "length": {
+                        "2": [16, 66],
+                        "3": [27, 66],
+                        "4": [38, 66],
+                        "5": [49, 66],
+                        "6": [60, 66]
+                    },
+                    "width": {
+                        "1": [16, 87],
+                        "2": [26, 87],
+                        "3": [37, 87],
+                        "4": [48, 87]
+                    },
+                    "visible": {
+                        "N": [16, 108],
+                        "E": [27, 108],
+                        "S": [38, 108],
+                        "W": [49, 108]
+                    }
+                },
+                "back": [4, 6],
+                "save": [88, 95]
+            },
+            "Labels_position": {
+                "color": {
+                    "position": [133, 23],
+                    "background": [136, 32]
+                },
+                "inner_circles": [133, 72],
+                "center_type": [133, 95],
+                "overall_size": [3, 21],
+                "graticule": {
+                    "position": [3, 44],
+                    "arrows": [5, 54],
+                    "sublabels": {
+                        "length": [14, 56],
+                        "width": [14, 77],
+                        "visible": [14, 98]
+                    }
+                }
+            },
+            "PreviewParts_position": {
+                "outer_circle": [0, 0],
+                "inner_circles": [4, 4],
+                "graticules_direction": {
+                    "N": [7, 2],
+                    "E": [9, 7],
+                    "S": [7, 9],
+                    "W": [2, 7]
+                },
+                "centers": [7, 7]
+            },
+            "CrosshairPreview_position": [76, 39],
+            "ColorToMarkedColor_offset": [2, 3]
+        }
+    }
+}
